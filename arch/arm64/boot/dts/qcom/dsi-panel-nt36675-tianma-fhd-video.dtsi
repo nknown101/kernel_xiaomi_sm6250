@@ -58,7 +58,7 @@ dsi_nt36675_tianma_video: qcom,mdss_dsi_nt36675_tianma_video {
 						  qcom,mdss-dsi-v-back-porch = <30>;
 						  qcom,mdss-dsi-v-front-porch = <10>;
 						  qcom,mdss-dsi-v-pulse-width = <2>;
-						  qcom,mdss-dsi-panel-framerate = <60>;
+						  qcom,mdss-dsi-panel-framerate = <64>;
 						  qcom,mdss-dsi-on-command = [
 							  15 01 00 00 00 00 02 FF 10
 								  15 01 00 00 00 00 02 FB 01
