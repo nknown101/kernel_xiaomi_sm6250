@@ -68,7 +68,7 @@ $(warning Detected assembler with broken .inst; disassembly will be unreliable)
   endif
 endif
 
-ifeq ($(CONFIG_COMPAT_VDSO), y)
+ifeq ($(CONFIG_COMPAT_VDSO), n)
   CROSS_COMPILE_ARM32 ?= $(CONFIG_CROSS_COMPILE_ARM32:"%"=%)
 
   # Check that the user has provided a valid prefix for the 32-bit toolchain.
